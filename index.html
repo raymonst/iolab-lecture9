@@ -1,0 +1,72 @@
+<!-- 
+
+On this page, you will find some unstructured information about a coffee shop, including the website navigation, the cafe's name, address, phone number, and a sign-up form. You have 2 tasks:
+1. Organize all the information on the page using the appropriate HTML 5 elements.
+2. Modify the javascript file (_js/script.js) to locate the user's location and add a map under the "your location" section.
+
+PS: To test geo-location, you have to either post your files to a server, e.g. I-School server (and test it online) or set up a local server (and test it locally).
+
+Below are some helpful links:
+
+HTML 5 elements list:
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
+
+Geo-location example:
+https://developer.mozilla.org/en-US/docs/Web/API/Geolocation.getCurrentPosition
+
+Google Maps API - simple map example:
+https://developers.google.com/maps/documentation/javascript/examples/map-simple
+
+Some HTML 5 tips:
+http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/
+
+Adding Phone Numbers To Web Pages With HTML5 and Microdata:
+http://demosthenes.info/blog/536/Adding-Phone-Numbers-To-Web-Pages-With-HTML5-and-Microdata
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="description">
+	<meta name="keywords" content="keywords">
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript" src="_js/script.js"></script>	
+	<title>Cafe Yesterday</title>
+</head>
+
+<body>
+
+	<!-- navigation -->
+	home
+	menu
+	contact
+
+	Cafe Yesterday
+	1122 University Ave
+	Berkeley, CA 94702
+	(510) 969-9619
+	<br/><br/>
+	Sign up for our mailing list
+	<form>
+	    <input />
+	</form>
+
+	<hr/>
+
+	<figure>
+	    <h2>Our location</h2>
+	    <div id="map-cafe"></div>
+	</figure>
+	
+	<figure>
+	    <h2>Your location</h2>
+	    <div id="map-user"></div>
+	</figure>
+	
+</body>
+</html>
