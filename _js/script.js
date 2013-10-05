@@ -18,7 +18,10 @@ $(document).ready(function() {
     if (navigator.geolocation) {
     
 	    // then, use the navigator.geolocation.getCurrentPosition() method to get the latitude-longitude coordinates
-    
+ 
+	    // here is an example of how to draw a map with Google Maps API; this refers to the "our location" map
+    	google.maps.event.addDomListener(window, 'load', initialize(37.869154, -122.290768, "map-cafe"));
+   
     }
 
 });
