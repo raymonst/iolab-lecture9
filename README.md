@@ -9,7 +9,7 @@ PS: To test geo-location, you have to either post your files to a server, e.g. I
 
 ---
 
-## Below are some helpful links:
+#### Below are some helpful links:
 
 HTML 5 elements list:
 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
